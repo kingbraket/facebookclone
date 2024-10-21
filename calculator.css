@@ -1,0 +1,62 @@
+div.calc{
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+}
+
+#rs{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+}
+.calc form input{
+    border: 0px;
+    outline: 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 5px;
+}
+
+.result{
+    margin-bottom: 100px;
+}
+.firstline{
+    position: relative;
+    bottom: 60px;
+    margin-top: 10px;
+}
+
+.secondline{
+    position: relative;
+    bottom: 60px;
+    margin-top: 10px;
+}
+
+.thirdline{
+    position: relative;
+    bottom: 60px;
+    margin-top: 10px;
+}
+
+.fourthline{
+    position: relative;
+    bottom: 60px;
+    margin-top: 10px;
+}
+
+.fifthline{
+    position: relative;
+    bottom: 60px;
+    margin-top: 10px;
+}

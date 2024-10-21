@@ -1,0 +1,96 @@
+body{
+    background-color: lightblue;
+    margin: 0px;
+}
+
+nav{
+    background-color: blue;
+    color: white;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+ul li{
+    padding-inline: 30px;   
+}
+
+.naviright{
+    margin-left: 900px;
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+}
+input{
+    width: 30pxpx;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.user-icon{
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.user-icon img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.online{
+    position: relative;
+}
+
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.leftsidebar{
+    background-color: skyblue;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+.rightsidebar{
+    background-color: skyblue;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+.maincontent{
+    flex-basis: 47%;
+}
+
+.imp-links a{
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+    
+}

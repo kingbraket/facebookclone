@@ -1,0 +1,53 @@
+.top{
+    background-color: green;
+    color: white;
+    width: 1500px;
+    height: 230px;
+ 
+    
+}
+*{
+    margin: 0px;
+}
+
+.middlepart{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: baseline;
+}
+
+.middlepart2{
+    background-color: red;
+    display: flex;
+    justify-content: baseline;
+}
+
+img{
+    border-radius: 25px;
+    padding: 10px;
+}
+.input{
+    width: 500px;
+    height: 20px;
+    
+}
+
+.group{
+    margin-left: 1250px;
+    position: absolute;
+    padding-top: 140px;
+
+   padding-bottom: 40px;
+}
+
+#arc{
+    margin-top: 50px;
+}
+
+.broad{
+   padding-left: 20px;
+   padding-top: 140px;
+
+   position: absolute;
+
+}

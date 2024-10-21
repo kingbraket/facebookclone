@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Dice App</h1>
+        <div class="dice" id="dice"></div>
+        <button onclick="rollDice()">Roll Dice</button>
+    </div>
+    <style>
+        body{
+            font-family: arial,sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container{
+            text-align: center;
+        }
+        .dice{
+            font-size: 3em;
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+    </style>
+
+    <script src="script.js"></script>
+    <script>
+        function rollDice() {
+            // Generate a random number between 1 and 6
+            const randomNumber = Math.floor(Math.random() * 6) + 1;
+
+            // update the dice display
+            const diceElement = document.getElementById('dice');
+            diceElement.textContent = randomNumber;
+        }
+    </script>
+</body>
+</html>

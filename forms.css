@@ -1,0 +1,28 @@
+div{
+    background-color: red;
+    padding-left: 200px;
+    padding-top: 20px;
+    height: 200px;
+    margin: 350px;
+}
+
+#name{
+    margin-top: 15px;
+}
+
+#password{
+    margin-top: 15px;
+}
+
+#date{
+    margin-top: 15px;
+}
+
+#email{
+    margin-top: 15px;
+    
+}
+
+#phone{
+    margin-top: 15px;
+}

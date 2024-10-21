@@ -1,0 +1,43 @@
+.top{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.topright{
+    margin-left: 600px;
+    font-size: x-large;
+}
+
+img{
+    margin-left: 550px;
+    border-radius: 10px;
+    margin-top: -225px;
+}
+
+.main h1{
+    font-size: 60px;
+}
+
+button{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+body{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

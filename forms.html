@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div>
+
+   <form action="" method="post">
+    <label  for="name">Name</label>
+    <input type="text" placeholder="enter your name" id="name"> <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com"> <br>
+    <label for="phone no.">Phone no.</label>
+    <input type="phone no." placeholder="Phone.no" id="phone"> <br>
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date"> <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"> <br>
+
+
+
+      
+   </form>
+
+    </div>
+
+    <script>
+        let balance = 500000;
+// let withAmt = parseInt(prompt("Enter withdrawal amount"));
+// let newBal = balance - withAmt;
+// let depAmt = parseInt(prompt("Enter deposit amount"));
+function withdraw(){
+    return balance-=withAmt;
+}
+
+function deposit(){
+    return balance += depAmt;
+}
+
+let choice = parseInt(prompt("Select an option... \n 1. withdrawal \n 2. Deposit \n 3. balance"));
+ 
+while (true) {
+    switch (choice) {
+    case 1:
+    let withAmt = parseInt(prompt("Enter withdrawal amount"));
+    balance -= withAmt;
+    alert(balance);
+        break;
+
+        case 2: 
+        let depAmt = parseInt(prompt("Enter deposit amount"));
+        balance +=depAmt;
+        alert(`Withdrawal successful ${balance}`);
+        break;
+
+        case 3: 
+        // let balance = parseInt(prompt("Enter deposit amount"));
+        alert(balance);
+
+    default:
+        break;
+ }
+}
+ 
+
+
+
+
+    </script>
+</body>
+</html>

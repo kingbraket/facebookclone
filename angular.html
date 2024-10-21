@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+<body ng-app="myApp" ng-controller="namesCtrl" ng-init="firstname= 'ade'; lastname='seun'">
+    <div class="ng-view">
+        <p>there is a {{firstname + " " + lastname}}</p>
+
+
+
+        <table border="1">
+            <!-- <tr>
+        <th>sn</th>
+        <th>NAME</th>
+        <TH>COUNTRY</TH>
+    </tr> -->
+            <tr>
+                <td ng-repeat="x in names  | orderBy: 'name'">
+                    {{x.name + " " + x.country}}
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <script>
+        angular.module('myApp', []).controller('namesCtrl', function ($scope) {
+            $scope.names = [
+                { name: 'Jani', country: 'Norway' },
+                { name: 'Hege', country: 'Sweden' },
+                { name: 'Kai', country: 'Denmark' }
+            ];
+        });
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

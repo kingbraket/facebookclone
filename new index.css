@@ -1,0 +1,263 @@
+nav{
+    background-color: red;
+    width: 1450px;
+    height: 50px;
+    position: fixed;
+    z-index: 5;
+}
+
+*{
+    margin: 0px;
+
+}
+
+ul{
+    display: flex;
+    padding-left: 900px;
+}
+
+ul li{
+    list-style: none;
+padding: 10px;
+padding-top: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    z-index: -5;
+    }
+
+    ul li a:hover{
+        color: blue;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 3px;
+        padding: 3px;
+    }
+
+    .hero {
+        background-image: url("/IMG_water.JPG");
+        height: 500px
+    }
+
+    .hero h1{
+        color: blue;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 300px;
+        font-size: 50px;
+    }
+
+    .hero h2{
+        color: white;
+        position: absolute;
+        font-size: 28px;
+        margin-top: 200px;
+        margin-left:360px;
+
+    }
+    .in{
+        position: absolute;
+        margin-top: 260px;
+        margin-left: 500px;
+        height: 30px;
+        width: 80px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-left: 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        white-space: 100px;
+    }
+
+        .up{
+            position: absolute;
+        margin-top: 260px;
+        margin-left: 500px;
+        height: 30px;
+        width: 80px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-left: 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        white-space: 100px;
+        }
+        
+    .in:hover{
+        background-color: red;
+        color: white;    
+    }
+    .up:hover{
+        background-color: red;
+        color: white;   
+    }
+
+    .in{
+        margin-left: 650px;
+    }
+    .up{
+        margin-right: 800px;
+    }
+
+    /* .btn2 a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: green;
+    } */
+
+/* .btn2:hover{
+    background-color: green;
+    border: 2px solid white;
+    color: yellow;
+} */
+/* .btn2 a:hover{
+    color: white;
+} */
+
+h2 .bk{
+        position: absolute;
+        margin-top: 260px;
+        margin-left: 500px;
+        height: 30px;
+        width: 80px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-left: 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        white-space: 100px;
+
+}
+
+.hhh {
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.first{
+    padding: 10px;
+    border: 2px solid;
+    gap: 2;
+    height: 300px;
+    font-size: large;
+}
+
+.second{
+    padding: 10px;
+    border: 2px solid;
+    gap: 2;
+    height: 300px;
+    font-size: large;
+}
+
+.third{
+    padding: 10px;
+    border: 2px solid;
+    gap: 2;
+    height: 300px;
+    font-size: large;
+ 
+}
+
+.fourth{
+    padding: 10px;
+    border: 2px solid;
+    gap: 2;
+    height: 300px;
+    font-size: large;
+}
+
+.first p{
+    padding-top: 15px;
+}
+.first a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 105px;
+ padding-top: 10px;
+ margin-top: 7px;
+ position: absolute;
+ background-color: green;
+ color: #fff;
+ width: 100px;
+ /* padding-left: 10px; */
+ padding-bottom: 5px;
+ text-align: center;
+font-size: medium;
+ height: 20px;
+ border-radius: 5px;
+}
+
+.second a{
+    text-decoration: none;
+    margin-left: 100px;
+    padding-top: 10px;
+    background-color: blue;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100px;
+    border-radius: 5px;
+    padding-bottom: 5px; 
+    font-size: medium;
+    height: 20px;
+}
+
+.third a{
+    text-decoration: none;
+    margin-left: 100px;
+    padding-top: 10px;
+    background-color:pink;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100px;
+    border-radius: 5px;
+    padding-bottom: 5px; 
+    font-size: medium;
+    height: 20px
+}
+.fourth a{
+    text-decoration: none;
+    margin-left: 100px;
+    padding-top: 10px;
+    background-color: orange;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100px;
+    border-radius: 5px;
+    padding-bottom: 5px; 
+    font-size: medium;
+    height: 20px;
+}
+
+
+.second p{
+    padding-top: 30px;
+}
+.third p{
+    padding-top: 30px;
+}
+.fourth p{
+    padding-top: 35p;
+}
+.hhh div p{
+    text-align: center;
+}
+
+.list{
+    position: absolute;
+    color: red;
+    margin-top: 15px;
+    margin-left: 600px;
+}

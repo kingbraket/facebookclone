@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+
+ul li{
+    list-style: none;
+    padding: 50px;
+    margin: 80px;
+}
+ul{
+    display: flex;
+}
+
+div{
+    background-color: yellow;
+    padding-left: 300px;
+}

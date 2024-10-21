@@ -1,0 +1,60 @@
+#top{
+    background-color: red;
+    color: white;
+    font-style: oblique;
+}
+#top h1{
+    margin-left: 10px;
+}
+#top h2{
+    margin-left: 200px;
+}
+
+#name{
+    width: 550px;
+    height: 20px;
+    border-width: 2px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+#lastname{
+    width: 550px;
+    height: 20px;
+    border-width: 2px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+#date{
+    width: 550px;
+    height: 20px;
+    border-width: 2px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+#phone{
+    width: 550px;
+    height: 20px;
+    border-width: 2px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+button{
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.button1:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
